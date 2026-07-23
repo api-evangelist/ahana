@@ -1,8 +1,27 @@
 aid: ahana
-name: Ahana *
-description: 'Ahana * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ahana.png
+name: Ahana
+description: 'Ahana was a venture-backed SaaS company founded in 2020 and headquartered in San Mateo,
+  California, that provided a managed, cloud-native offering of PrestoDB — the open source distributed
+  SQL query engine originally created at Facebook — positioned as the query and analytics layer of the
+  open data lakehouse. Ahana raised roughly $32M in seed and Series A funding from investors including
+  GV (Google Ventures), Lux Capital, Third Point Ventures, Leslie Ventures, and Liberty Global Ventures,
+  and was a leading contributor and steward of the Presto Foundation. In April 2023 Ahana was acquired
+  by IBM, which joined the Presto Foundation and folded Ahana''s SaaS Presto capabilities into IBM
+  watsonx.data. The independent Ahana product and developer surface no longer exist: the ahana.io domain
+  now 301-redirects to https://www.ibm.com/products/watsonx-data. This profile is retained as a historical
+  network record for the acquired company; there is no live first-party API to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/ahana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,24 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: IBM
+x-acquired-date: '2023-04'
+x-successor-product: IBM watsonx.data
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Enterprise
+- Presto
+- PrestoDB
+- Data Lakehouse
+- Analytics
+- SQL Query Engine
+- Open Source
+- Data
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ahana-domain-security.yml
 - type: Website
-  url: http://ahana.io
+  url: https://ahana.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
