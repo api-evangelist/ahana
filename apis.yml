@@ -33,7 +33,7 @@ x-status: acquired
 x-acquired-by: IBM
 x-acquired-date: '2023-04'
 x-successor-product: IBM watsonx.data
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
