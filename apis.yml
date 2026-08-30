@@ -76,6 +76,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: IBM
+  x-relationship: acquired
+  x-evidence: "In April 2023 Ahana was acquired by IBM, which joined the Presto Foundation and folded Ahana's SaaS Presto capabilities into IBM watsonx."
 - type: DomainSecurity
   url: security/ahana-domain-security.yml
 - type: Website
