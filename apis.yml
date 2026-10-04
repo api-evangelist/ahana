@@ -55,7 +55,7 @@ tags:
 - Data Lakehouse
 - Analytics
 - SQL Query Engine
-- Open-Source
+- Open Source
 - Data
 - Acquired
 tags_raw:
@@ -69,6 +69,7 @@ tags_raw:
 - Open Source
 - Data
 - Acquired
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
